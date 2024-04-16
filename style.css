@@ -1,0 +1,340 @@
+.nav{
+    background-color:white;
+    padding:10px;
+    padding-left:35px;
+    padding-right:35px;
+    z-index:9;
+    display:flex;
+    box-shadow:0px 0px 65px 3px rgba(0,0,0,.15);
+}
+.nav_top{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.logo{
+    float:left;
+    width:50%;
+}
+.logo img{
+    padding:10px;
+}
+.nav_items{
+    float:right;
+    width:50%;
+    margin-top:12px;
+}
+.nav_items a{
+    text-decoration:none;
+    margin-top:10px;
+    margin-left: 30px;
+    margin-right:20px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    text-align:center'
+}
+.nav_items a:hover{
+    color:orange;
+    text-decoration:none;
+    transition:all 1s ease;
+}
+.main{
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:scroll;
+    height: 80vh;
+}
+.main .main_content{
+    padding-top:9%;
+    margin-left:10%;
+    margin-right:10%;
+}
+.main .main_content h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size:40px;
+    color:black;
+    line-height:30px;
+}
+.main .main_content h2 span{
+    font-size: 17px;
+    font-weight: lighter;
+    line-height :20px;
+    opacity :0.9; /*text thickness 0-nothing 1-full thickness*/
+}
+.main .main_content .btn{
+    margin:10px;
+    margin-left:40%;
+    padding:12px;
+    
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:8px;
+    background-color: rgb(243, 156, 75);
+    color:black;
+    transition:0.5s;
+    text-align: center;
+}
+.main .main_content .btn a:hover{
+    border:2px solid rgb(178, 91, 218);
+    border-bottom: 2px solid white;
+    background-color: rgb(178, 91, 218);
+    color:white;
+    transition:0.5s;
+}
+.product{
+    padding: 10px;
+}
+.product h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding:12px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .it{
+    width : 33.33%;
+    margin: 5px;
+    height: auto;
+}
+.product .product_container .it:hover{
+    box-shadow: 0px 3px 65px 0px rgba(21, 15, 15, 0.15);
+}
+.product .product_container .it .it_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .it .it_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .it .it_content{
+    text-align: center;
+}
+.product .product_container .it .it_content h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.product .product_container .it .it_content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.product .product_container .it .it_content a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:8px;
+    background-color: rgb(243, 156, 75);
+    color:black;
+    transition:0.5s;
+    text-align: center;
+}
+.product .product_container .it .it_content a:hover{
+    border:2px solid rgb(178, 91, 218);
+    border-bottom: 2px solid white;
+    background-color: rgb(178, 91, 218);
+    color:white;
+    transition:0.5s;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top : 35px;
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:8px;
+    background-color: rgb(243, 156, 75);
+    color:black;
+    transition:0.5s;
+    text-align: center;
+}
+.product .product_btn a:hover{
+    border:2px solid rgb(178, 91, 218);
+    border-bottom: 2px solid white;
+    background-color: rgb(178, 91, 218);
+    color:white;
+    transition:0.5s;
+}
+.keypoint{
+    padding: 30px;
+}
+.keypoint h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.keypoint .keypoint_container{
+    display: flex;
+}
+.keypoint .keypoint_container .keypoint_content{
+     width : 40%;
+     padding: 20px;
+     float: left;
+}
+.keypoint .keypoint_container .keypoint_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.keypoint .keypoint_container .key_img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.keypoint .keypoint_container .key_img img{
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.testi{
+    padding: 50px;
+    margin-top:-22%;
+}
+.testi h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .it_active{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: none;   
+}
+.testi .testi_container .item .it_img{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.testi .testi_container .item .it_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testi .testi_container .item .it_cont{
+    text-align: center;
+}
+.testi .testi_container .item .it_cont h3{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.testi .testi_container .item .it_cont p{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+footer{
+    background-color:rgb(215, 215, 215);
+    padding: 50px;
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: orange;
+    margin: 10px;
+}
+footer .pages a:hover{
+    color: white;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: orange;
+    margin: 10px;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: white;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+footer .contact a:hover{
+    color: white;
+}
